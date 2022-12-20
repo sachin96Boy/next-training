@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Heading, Flex } from "@chakra-ui/react";
 
-function about() {
+function About() {
   return (
     <Box>
         <Flex align={'center'} justify='center'>
@@ -11,4 +11,4 @@ function about() {
   )
 }
 
-export default about
+export default About
