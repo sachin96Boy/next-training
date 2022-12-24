@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import { Box, Heading, Flex } from "@chakra-ui/react";
+import { Box, Heading, Flex, UnorderedList, ListItem } from "@chakra-ui/react";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,11 @@ export default function Home() {
           <Flex align={'center'} justify='center'>
             <Heading fontWeight={"bold"} as={'h1'}>Hello from Homepage</Heading>
           </Flex>
+          <UnorderedList>
+            <ListItem>
+              <Link href="/portfolio">Portfolio</Link>
+            </ListItem>
+          </UnorderedList>
         </Box>
       </main>
     </>
