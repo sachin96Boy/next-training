@@ -24,6 +24,9 @@ export default function Home() {
             <ListItem>
               <Link href="/portfolio">Portfolio</Link>
             </ListItem>
+            <ListItem>
+              <Link href="/clients">Clients</Link>
+            </ListItem>
           </UnorderedList>
         </Box>
       </main>
